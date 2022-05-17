@@ -1,18 +1,11 @@
 // JavaScript Document
-
-// buttons in button section
-const navigatieButton = document.querySelector("section.navigatie button");
-const terugButton = document.querySelector("section.navigatieBack button");
+var deButton = document.querySelector("button");
+var deLijst = document.querySelector("button ul");
 
 
-navigatieButton.addEventListener("click", goFurther);
-terugButton.addEventListener("click", goBack);
 
+deButton.addEventListener("click", klapOpen);
 
-function goFurther() {
-	document.body.classList.add("further");
-}
-
-function goBack() {
-	document.body.classList.add("back");
+function klapOpen() {
+	deButton.classList.toggle("navigation-menu");
 }

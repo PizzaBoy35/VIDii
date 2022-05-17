@@ -10,19 +10,24 @@ html, body {
     margin:0;  
     font-family: 'Signika Negative', sans-serif;
     display: flex;
+    cursor: url("../images/Pokeball-Cursor.png"), auto;
 }
 
 button:not([disabled]) {
   cursor:pointer;
 }
 
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-  --color-main:#333;
-  --color-background:#ccc;
+    --color-main: rgb(0,0,70);
+    --color-text-details: rgb(240,200,0);
+    --color-buttons: rgb(240,200,0);
+    --color-page2: rgb(243, 239, 200);
+    --color-background-images: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) );
+    --color-info-text-background: rgba(0, 0, 0, 0.5);
+    --box-border-blur: rgba(0,0,0,1);
 }
 
 
@@ -30,47 +35,25 @@ button:not([disabled]) {
 /* ALGEMENE STIJLEN */
 /********************/
 body {
-  margin:0;
-  background-color:var(--color-background);
-  font-family:'Saira', sans-serif;
-  color:var(--color-main);
-}
-
-/*Shortcut menu*/
-
-button {
-    position: fixed;
-    top: 1em;
-    left: 1em;
-    width: 5em;
-    height: 5em;
-    border-radius: 50%;
-    border-style: none;
-    background-color: rgb(240,200,0);
-    z-index: 200;
+  background-color:var(--color-main);
 }
 
 /* De lijst */
 ol {
 	width:100vw;
 	height:100vh;
-	
 	display:flex;
 	overflow:hidden;
-	
 	list-style:none;
 	padding:0;
 	margin:0;
-	
 	scroll-behavior:smooth;
 }
 
-li {
+ol li {
 	position:relative;
-	
 	width:100vw;
 	height:100vh;
-	
 	flex-shrink:0;
 }
 
@@ -80,29 +63,37 @@ a.prev,
 a.next {
 	position:absolute;
 	top:calc(50% - 2.5em);
-    
 	width:4em;
 	height:4em;
-	
-	background-color: rgb(240,200,0);
+	background-color: var(--color-buttons);
 	border-radius:50%;
     background-size: cover;
-	
 	display:grid;
 	place-items:center;
-	
 	z-index:100;
 }
 
 a.prev {
 	left:2em;
     background-image: url("../images/button-back.png");
-    z-index:100;
+    transition: 0.5s;
 }
 
 a.next {
 	right:2em;
     background-image: url("../images/button-next.png");
+    transition: 0.5s;
+}
+
+a.prev:hover{
+	left:2em;
+    background-image: url("../images/button-back-hover.png");
+    z-index:100;
+}
+
+a.next:hover{
+	right:2em;
+    background-image: url("../images/button-next-hover.png");
     z-index:100;
 }
 
@@ -110,12 +101,12 @@ a.next {
 
 section {
 	position:relative;
-	width:100%;
-	height:100%;
+	width:100vw;
+	height:100vh;
 }
 
 #page1{
-    background-color: rgb(0 0 70);
+    background-color: var(--color-main);
     text-align: center;
 }
 
@@ -124,7 +115,7 @@ section img {
 }
 
 h1 {
-    color: rgb(240,200,0);
+    color: var(--color-text-details);
     margin: -2em;
 }
 
@@ -133,7 +124,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    color: rgb(240,200,0);
+    color: var(--color-text-details);
     margin-top: 10em;
     width: 40em;
     flex-wrap: wrap;
@@ -144,7 +135,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    color: rgb(240,200,0);
+    color: var(--color-text-details);
     margin-top: 1em;
     width: 40em;
     flex-wrap: wrap;
@@ -153,82 +144,197 @@ h1 {
 /* Sections voor infopagina's */
 
 #page2{
-    background-color: rgb(243, 239, 200);
+    background-color: var(--color-page2);
     text-align: center;
 }
 
 #page3{
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../images/ThunderStone.png");
+    background: var(--color-background-images), url("../images/ThunderStone.png");
     background-position: center;
     background-size: cover;
     text-align: center;
 }
 
 #page4{
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../images/WaterStone.png");
+    background: var(--color-background-images), url("../images/WaterStone.png");
     background-position: center;
     background-size: cover;
     text-align: center;
 }
 
 #page5{
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../images/Fire.jpg");
+    background: var(--color-background-images), url("../images/Fire.jpg");
     background-position: center;
     background-size: cover;
     text-align: center;
 }
 
 #page6{
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../images/Light.jpg");
+    background: var(--color-background-images), url("../images/Light.jpg");
     background-position: center;
     background-size: cover;
     text-align: center;
 }
 
 #page7{
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../images/Night.jpg");
+    background: var(--color-background-images), url("../images/Night.jpg");
     background-position: center;
     background-size: cover;
     text-align: center;
 }
 
 #page8{
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../images/Forest.jpg");
+    background: var(--color-background-images), url("../images/Forest.jpg");
     background-position: center;
     background-size: cover;
     text-align: center;
 }
 
 #page9{
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../images/IceCave.jpg");
+    background: var(--color-background-images), url("../images/IceCave.jpg");
     background-position: center;
     background-size: cover;
     text-align: center;
 }
 
 #page10{
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("../images/Contest.jpg");
+    background: var(--color-background-images), url("../images/Contest.jpg");
     background-position: center;
     background-size: cover;
     text-align: center;
 }
 
+/*Styling van grid voor afbeelding en tekst*/
+
 section section{
     display: grid;
-    grid-template-columns: 1.5fr 0.5fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     margin-left: auto;
     margin-right: auto;
-    width: 30em;
+    width: 35em;
     height: 30em;
     margin-top: 6em;
     margin-top: 5em;
+    background-color: var(--color-info-text-background);
+    box-shadow: 0 0 0.5em var(--box-border-blur);
 }
 
 section section img{
-    width: 10em;
+    width: 13em;
+    place-items: center;
+    margin: 2em;
 }
 
+section section p{
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: left;
+    color: var(--color-text-details);
+    
+}
 
+#page2 p:nth-of-type(1), 
+#page3 p:nth-of-type(1), 
+#page4 p:nth-of-type(1), 
+#page5 p:nth-of-type(1), 
+#page6 p:nth-of-type(1), 
+#page7 p:nth-of-type(1), 
+#page8 p:nth-of-type(1), 
+#page9 p:nth-of-type(1), 
+#page10 p:nth-of-type(1){
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
+#page2 p:nth-of-type(2), 
+#page3 p:nth-of-type(2), 
+#page4 p:nth-of-type(2), 
+#page5 p:nth-of-type(2), 
+#page6 p:nth-of-type(2), 
+#page7 p:nth-of-type(2), 
+#page8 p:nth-of-type(2), 
+#page9 p:nth-of-type(2), 
+#page10 p:nth-of-type(2){
+    grid-row-start: 2;
+    grid-column: span 2;
+}
 
+#page2 p:nth-of-type(3),
+#page3 p:nth-of-type(3), 
+#page4 p:nth-of-type(3), 
+#page5 p:nth-of-type(3), 
+#page6 p:nth-of-type(3), 
+#page7 p:nth-of-type(3), 
+#page8 p:nth-of-type(3), 
+#page9 p:nth-of-type(3), 
+#page10 p:nth-of-type(3){
+    grid-row-start: 3;
+    grid-column: span 2;
+}
+
+#page2 p:nth-of-type(3) a:visited,
+#page3 p:nth-of-type(3) a:visited, 
+#page4 p:nth-of-type(3) a:visited, 
+#page5 p:nth-of-type(3) a:visited, 
+#page6 p:nth-of-type(3) a:visited, 
+#page7 p:nth-of-type(3) a:visited, 
+#page8 p:nth-of-type(3) a:visited, 
+#page9 p:nth-of-type(3) a:visited, 
+#page10 p:nth-of-type(3) a:visited{
+    grid-row-start: 3;
+    grid-column: span 2;
+    color: var(--color-text-details);
+}
+
+/*Shortcut menu*/
+
+button {
+    display: flex;
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    border-style: none;
+    background-color: var(--color-buttons);
+    background-image: url("../images/button-hamburger.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 200;
+    transition: 0.5s;
+}
+
+ul {
+    opacity: 0;
+}
+
+.navigation-menu{
+    position: absolute;
+    width: 10em;
+    height: 17em;
+    background-image: none;
+    background-color: var(--color-buttons);
+    border-radius: 5%;
+    opacity: 1;
+    list-style: none;
+    transition: 1s;
+}
+
+.navigation-menu ul{
+    opacity: 1;
+    list-style: none;
+    margin-top: 0.7em;
+    margin-left: -0.5em;
+    transition: 1.5s;
+}
+
+.navigation-menu ul li {
+    margin-top: 0.5em;
+}
+
+.navigation-menu li a{
+    color: var(--color-main);
+    text-decoration: none;
+}

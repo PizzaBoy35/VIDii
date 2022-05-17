@@ -100,52 +100,54 @@ Mijn startniveau is: Rood
 </details>
 
 
-
-
 ## Voortgang/Feedback 2
 
 <details>
   <summary>Mijn bevindingen + wijzigingen</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Tekst en rest van content invoeren.
   
-  <img src="readme-images/Feedback 2-1.png" width="375px" alt="tweede versie/schets">
+  <img src="readme-images/Feedback 2-2.png" width="375px" alt="tweede versie/schets">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Simpel: alle paragrafen een styling meegeven en de informatie vanaf internet halen om in de HTML te zetten.
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Grid per pagina misschien wat breder maken zodat de afbeelding groter is.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Het grid kan iets groter gemaakt worden, maar ik werk met vierkante afbeeldingen. Als ik de afbeelding dus groter maakt zal het grid meegroeien en de tekst ernaast raar plaatsen waardoor er op elke regel maar 13 woorden staan. Ik los dit op door het grid iets groter te maken en de image een margin te geven, maar kan niet al te veel extra elementen aanpassen zonder mijn layout te verliezen.
 
 
 
   ### Bevinding 3:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Hover en active state bij buttons, bv kleur veranderen.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik zou een hover state kunnen maken waarbij de kleuren van de button omwisselen. De achtergrond wordt donkerblauw en de pijl geel. Dit heeft veel contrast en verschilt duidelijk van de non-hover state.
+  
+  <img src="readme-images/Feedback 2-4.png" width="375px" alt="tweede versie/schets">
   
   
   
   ### Bevinding 4:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Misschien iets op de achtergrond doen qua animatie.
+  
+  <img src="readme-images/Feedback 2-3.png" width="375px" alt="tweede versie/schets">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Het ligt eraan of ik nog tijd over heb. Met een animatie kan ik de interface wat spannender maken dan een simpele slideshow, maar dit zou wel extra tijd en moeite kosten. Vandaar dat dit meer een nice-to-have is dan een must-need.
   
   
   
   ### Bevinding 5:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Achtergrondafbeeldingen wat lichter maken.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  De achtergrondafbeeldingen kan ik makkelijk licht maken door de a bij linear-gradient: rgba() dichter bij 0 dan bij 1 te zetten.
   
   
 
