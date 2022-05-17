@@ -48,6 +48,7 @@ ol {
 	padding:0;
 	margin:0;
 	scroll-behavior:smooth;
+    transition: 1s;
 }
 
 ol li {
@@ -213,7 +214,7 @@ section section{
     margin-left: auto;
     margin-right: auto;
     width: 35em;
-    height: 30em;
+    height: 30vw;
     margin-top: 6em;
     margin-top: 5em;
     background-color: var(--color-info-text-background);
@@ -258,6 +259,7 @@ section section p{
 #page10 p:nth-of-type(2){
     grid-row-start: 2;
     grid-column: span 2;
+    margin-top: -1em;
 }
 
 #page2 p:nth-of-type(3),

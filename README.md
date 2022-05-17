@@ -161,15 +161,19 @@ Mijn startniveau is: Rood
   <summary>Mijn bevindingen + wijzigingen</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  De teksten van evolutiewijze en informatie over de Pokémon zouden nog omgewsseld kunnen worden voor een logischere indeling van teksten.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  De teksten omdraaien zou voor een algemene site wel logisch zijn, maar met deze interface wil ik nadruk leggen op de evoluties en de manieren om Eevee te evolueren. Dit is waarom ik de teksten op dezelfde plaatsen houd maar wel links onderaan plaats die verwijzen naar algemene websites.
+  
+  <img src="readme-images/Feedback 3-1.png" width="375px" alt="tweede versie/schets">
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)). Shortcutmenu - hover
+  
+  <img src="readme-images/Feedback 3-2.png" width="375px" alt="tweede versie/schets">
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
@@ -177,7 +181,28 @@ Mijn startniveau is: Rood
 
 
   ### Bevinding 3:
-  ...
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  
+  
+  
+  ### Bevinding 4:
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  
+  
+  
+  ### Bevinding 5:
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  
+  
 
 </details>
 
@@ -209,7 +234,7 @@ Mijn startniveau is: Rood
 
 
 
-## Bronnenlijst voor afbeeldingen
+## Bronnenlijst voor code
 
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
@@ -219,7 +244,7 @@ Mijn startniveau is: Rood
 3. https://stackoverflow.com/questions/26621513/darken-css-background-image - voor hulp bij het donkerder maken van mijn achtergrondafbeeldingen
 4. https://www.w3schools.com/cssref/pr_background-position.asp - voor hulp bij het vormgeven van de verschillende achtergrondafbeeldingen.
 
-## Bronnenlijst voor code en fonts
+## Bronnenlijst voor afbeeldingen
 
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
@@ -240,6 +265,10 @@ Mijn startniveau is: Rood
 14. https://www.pokecommunity.com/showthread.php?p=9921014
 15. https://wallpaperaccess.com/ice-pokemon
 16. https://www.eurogamer.nl/pokemon-sun-en-moon-evolution-items-fire-water-leaf-thunder-stone-en-meer
+17. https://www.deviantart.com/pokemonsketchartist/art/Thunder-Stone-699915463
+18. https://www.deviantart.com/pokemonsketchartist/art/Fire-Stone-699915091
+19. https://international-pokedex.fandom.com/wiki/Water_Stone
+20. https://nl.pinterest.com/pin/217932069451895829/
 
 
 </details>
