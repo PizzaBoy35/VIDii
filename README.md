@@ -237,7 +237,9 @@ Mijn startniveau is: Rood
   
   <img src="readme-images/Eindresultaat5.png" width="375px" alt="veelwitruimte">
   
-  Het shortcutmenu werkt, maar is visueel ook nog niet heel sterk qua affordance en interactie. Ik had er graag een afbeelding aan toe willen voegen met een kruisje als het is opengeklapt en ik weet hoe ik dit zou moeten doen (image vervangen door een andere image te plaatsen bij click event van de button) maar helaas ben ik er niet meer toe gekomen.
+  Het shortcutmenu werkt, maar is visueel nog niet heel sterk qua affordance en interactie. Ik had er graag een afbeelding aan toe willen voegen met een kruisje als het is opengeklapt en ik weet hoe ik dit zou moeten doen (image vervangen door een andere image te plaatsen bij click event van de button) maar helaas ben ik er niet meer toe gekomen.
+  
+  Daarnaast nog een last-minute probleem, natuurlijk... In Safari toont mijn website opeens geen achtergrondafbeeldingen meer. Dat terwijl het in eerste instantie wel zo was. Vanaf het begin deed alles het eigenlijk perfect op Safari. Ik heb geprobeerd om het nog op te lossenvoor de deadline, maar het is helaas niet gelukt zoals waarschijnlijk in de browser te zien is.
   
 </details>
 
