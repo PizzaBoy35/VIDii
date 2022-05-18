@@ -90,6 +90,8 @@ ul {
     opacity: 0;
 }
 
+/*Shortcut menu class die vanuit javascript wordt meegegeven*/
+
 .navigation-menu{
     position: absolute;
     width: 10em;
@@ -340,8 +342,5 @@ section section p:nth-of-type(3){
 }
 
 section section p:nth-of-type(3) a:visited{
-    grid-row-start: 3;
-    grid-column: span 2;
     color: var(--color-text-details);
-    margin-bottom: 1em;
 }

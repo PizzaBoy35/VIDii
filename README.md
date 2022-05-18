@@ -6,10 +6,6 @@ Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal
 
 Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
 
-
-
-
-
 ## Jij
 
 ### Ontwerper:
@@ -206,33 +202,41 @@ Mijn startniveau is: Rood
 </details>
 
 
-
-
 ## Reflectie
 
 <details>
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="readme-images/Eindresultaat0" width="375px" alt="final ontwerp">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  
+  Na een hoop te hebben uitgeprobeerd en een paar tutorials te hebben gekeken kwam ik maar niet verder met het fixen van de slider navigatie. Ik wist van tevoren dat het een lastige klus zou zijn omdat ik nog helemaal geen ervaring had met zulke code dus ik begon al vroeg in het proces met het maken van een html en css skelet. Dit werkte niet zoals ik hoopte, maar nadat ik om hulp had gevraagd werden mijn problemen al snel opgelost. Alles bleek simpeler in elkaar te zitten dan gedacht. Wat vooral hielp was de schets met ol en li'tjes. Dat zorgde voor een goed overzicht en maakte het makkelijker om te begrijpen en vertalen naar code.
 
   <img src="readme-images/Eindresultaat1.png" width="375px" alt="slidernavigatie">
   
+  Ik ben uiteindelijk best blij met hoe de layout is gelukt. Ik heb nooit eerder met grids gewerkt (altijd flexbox) dus het was even wennen en dingen uitproberen zoals het uitrekken van bepaalde cellen met span.
+  
   <img src="readme-images/Eindresultaat2.png" width="375px" alt="algemenevormgeving">
+  
+  Ook met het shortcut menu moest ik even puzzelen, maar door alles stap voor stap te doen is het me toch gelukt. Ik begon eerst met css styling op hover zodat ik wist dat de positionering en het uiterlijk van het menu perfect waren. Daar kon ik het bij laten, maar ik besloot toch om er een click event met javascript van te maken omdat dat logischer zou zijn om het hamburgermenu te openen en sluiten door middel van te klikken.
   
   <img src="readme-images/Eindresultaat3.png" width="375px" alt="shortcutmenu">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+  
+  Doordat het werd benoemd en ik er wat kritischer naar ging kijken kwam ik erachter dat mijn layout wel goed in elkaar zit maar nog redelijk saai is. Helaas was dit op de laatste dag en heb ik er niet meer veel aan kunnen doen om alles visueel aantrekkelijker te maken met bijvoorbeeld gradients, animaties of meerdere afbeeldingen. Wel is het me nog gelukt om een glow toe te voegen die bij de Pokémon past of bij de wijze van evolutie hoort, maar zelf vind ik dat nog wel mager.
 
   <img src="readme-images/Eindresultaat4.png" width="375px" alt="saaievormgeving">
   
+  Wat bij de layout hoort en de plaasting in de grid is goed gelukt. Toch is er soms wel erg veel witruimte. Dit komt omdat ik van de meeste content ben uitgegaan (bij leafeon) en mijn grid daarop het toegepast. Maar dat zorgt ervoor dat bij de minste content (bij flareon) zo veel ruimte is dat het eruit ziet alsof de grid juist niet is gelukt. 
+  
   <img src="readme-images/Eindresultaat5.png" width="375px" alt="veelwitruimte">
+  
+  Het shortcutmenu werkt, maar is visueel ook nog niet heel sterk qua affordance en interactie. Ik had er graag een afbeelding aan toe willen voegen met een kruisje als het is opengeklapt en ik weet hoe ik dit zou moeten doen (image vervangen door een andere image te plaatsen bij click event van de button) maar helaas ben ik er niet meer toe gekomen.
   
 </details>
 
@@ -242,9 +246,9 @@ Mijn startniveau is: Rood
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-1. Docent Sanne 't Hooft's Codepen code (voor o.a. HTML & CSS skelet)
-2. Ellen Bloemhof's hulp bij het verkrijgen van code voor interactie
-3. https://stackoverflow.com/questions/26621513/darken-css-background-image - voor hulp bij het donkerder maken van mijn achtergrondafbeeldingen
+1. Docent Sanne 't Hooft's Codepen code (voor o.a. HTML & CSS skelet) en hulp.
+2. Ellen Bloemhof's hulp bij het verkrijgen van code voor interactie.
+3. https://stackoverflow.com/questions/26621513/darken-css-background-image - voor hulp bij het donkerder maken van mijn achtergrondafbeeldingen.
 4. https://www.w3schools.com/cssref/pr_background-position.asp - voor hulp bij het vormgeven van de verschillende achtergrondafbeeldingen.
 
 ## Bronnenlijst voor afbeeldingen
