@@ -218,6 +218,9 @@ h1 {
 
 ol li:not(:first-of-type) {
     background-position: center;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;

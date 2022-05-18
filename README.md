@@ -251,6 +251,7 @@ Mijn startniveau is: Rood
 2. Ellen Bloemhof's hulp bij het verkrijgen van code voor interactie.
 3. https://stackoverflow.com/questions/26621513/darken-css-background-image - voor hulp bij het donkerder maken van mijn achtergrondafbeeldingen.
 4. https://www.w3schools.com/cssref/pr_background-position.asp - voor hulp bij het vormgeven van de verschillende achtergrondafbeeldingen.
+5. https://stackoverflow.com/questions/17341728/background-image-not-showing-in-safari - voor hulp bij achtergrondafbeeldingen in safari
 
 ## Bronnenlijst voor afbeeldingen
 
