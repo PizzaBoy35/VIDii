@@ -28,6 +28,15 @@ button:not([disabled]) {
     --color-background-images: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) );
     --color-info-text-background: rgba(0, 0, 0, 0.5);
     --box-border-blur: rgba(0,0,0,1);
+    
+    --jolteon-glow: hsl(62, 100%, 50%);
+    --vaporeon-glow: hsl(193, 100%, 50%);
+    --flareon-glow: hsl(20, 100%, 50%);
+    --espeon-glow: hsl(194, 100%, 80%);
+    --umbreon-glow: hsl(194, 100%, 60%);
+    --leafeon-glow: hsl(131, 100%, 68%);
+    --glaceon-glow: hsl(203, 100%, 89%);
+    --sylveon-glow: hsl(306, 100%, 80%);
 }
 
 
@@ -56,237 +65,6 @@ ol li {
 	width:100vw;
 	height:100vh;
 	flex-shrink:0;
-}
-
-/*Styling van navigatieknoppen*/
-
-a.prev,
-a.next {
-	position:absolute;
-	top:calc(50% - 2.5em);
-	width:4em;
-	height:4em;
-	background-color: var(--color-buttons);
-	border-radius:50%;
-    background-size: cover;
-	display:grid;
-	place-items:center;
-	z-index:100;
-}
-
-a.prev {
-	left:2em;
-    background-image: url("../images/button-back.png");
-    transition: 0.5s;
-}
-
-a.next {
-	right:2em;
-    background-image: url("../images/button-next.png");
-    transition: 0.5s;
-}
-
-a.prev:hover{
-	left:2em;
-    background-image: url("../images/button-back-hover.png");
-    z-index:100;
-}
-
-a.next:hover{
-	right:2em;
-    background-image: url("../images/button-next-hover.png");
-    z-index:100;
-}
-
-/*Algemene styling van hoofdmenu en sections*/
-
-section {
-	position:relative;
-	width:100vw;
-	height:100vh;
-}
-
-#page1{
-    background-color: var(--color-main);
-    text-align: center;
-}
-
-section img {
-    width: 20em;
-}
-
-h1 {
-    color: var(--color-text-details);
-    margin: -2em;
-}
-
-#page1 p{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    color: var(--color-text-details);
-    margin-top: 10em;
-    width: 40em;
-    flex-wrap: wrap;
-}
-
-#page1 p+p{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    color: var(--color-text-details);
-    margin-top: 1em;
-    width: 40em;
-    flex-wrap: wrap;
-}
-
-/* Sections voor infopagina's */
-
-#page2{
-    background-color: var(--color-page2);
-    text-align: center;
-}
-
-#page3{
-    background: var(--color-background-images), url("../images/ThunderStone.png");
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-}
-
-#page4{
-    background: var(--color-background-images), url("../images/WaterStone.png");
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-}
-
-#page5{
-    background: var(--color-background-images), url("../images/Fire.jpg");
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-}
-
-#page6{
-    background: var(--color-background-images), url("../images/Light.jpg");
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-}
-
-#page7{
-    background: var(--color-background-images), url("../images/Night.jpg");
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-}
-
-#page8{
-    background: var(--color-background-images), url("../images/Forest.jpg");
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-}
-
-#page9{
-    background: var(--color-background-images), url("../images/IceCave.jpg");
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-}
-
-#page10{
-    background: var(--color-background-images), url("../images/Contest.jpg");
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-}
-
-/*Styling van grid voor afbeelding en tekst*/
-
-section section{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin-left: auto;
-    margin-right: auto;
-    width: 35em;
-    height: 30vw;
-    margin-top: 6em;
-    margin-top: 5em;
-    background-color: var(--color-info-text-background);
-    box-shadow: 0 0 0.5em var(--box-border-blur);
-}
-
-section section img{
-    width: 13em;
-    place-items: center;
-    margin: 2em;
-}
-
-section section p{
-    padding-left: 1em;
-    padding-right: 1em;
-    text-align: left;
-    color: var(--color-text-details);
-    
-}
-
-#page2 p:nth-of-type(1), 
-#page3 p:nth-of-type(1), 
-#page4 p:nth-of-type(1), 
-#page5 p:nth-of-type(1), 
-#page6 p:nth-of-type(1), 
-#page7 p:nth-of-type(1), 
-#page8 p:nth-of-type(1), 
-#page9 p:nth-of-type(1), 
-#page10 p:nth-of-type(1){
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-#page2 p:nth-of-type(2), 
-#page3 p:nth-of-type(2), 
-#page4 p:nth-of-type(2), 
-#page5 p:nth-of-type(2), 
-#page6 p:nth-of-type(2), 
-#page7 p:nth-of-type(2), 
-#page8 p:nth-of-type(2), 
-#page9 p:nth-of-type(2), 
-#page10 p:nth-of-type(2){
-    grid-row-start: 2;
-    grid-column: span 2;
-    margin-top: -1em;
-}
-
-#page2 p:nth-of-type(3),
-#page3 p:nth-of-type(3), 
-#page4 p:nth-of-type(3), 
-#page5 p:nth-of-type(3), 
-#page6 p:nth-of-type(3), 
-#page7 p:nth-of-type(3), 
-#page8 p:nth-of-type(3), 
-#page9 p:nth-of-type(3), 
-#page10 p:nth-of-type(3){
-    grid-row-start: 3;
-    grid-column: span 2;
-}
-
-#page2 p:nth-of-type(3) a:visited,
-#page3 p:nth-of-type(3) a:visited, 
-#page4 p:nth-of-type(3) a:visited, 
-#page5 p:nth-of-type(3) a:visited, 
-#page6 p:nth-of-type(3) a:visited, 
-#page7 p:nth-of-type(3) a:visited, 
-#page8 p:nth-of-type(3) a:visited, 
-#page9 p:nth-of-type(3) a:visited, 
-#page10 p:nth-of-type(3) a:visited{
-    grid-row-start: 3;
-    grid-column: span 2;
-    color: var(--color-text-details);
 }
 
 /*Shortcut menu*/
@@ -339,4 +117,231 @@ ul {
 .navigation-menu li a{
     color: var(--color-main);
     text-decoration: none;
+}
+
+/*Styling van navigatieknoppen met hover/focus states*/
+
+a.prev,
+a.next {
+	position:absolute;
+	top:calc(50% - 2.5em);
+	width:4em;
+	height:4em;
+	background-color: var(--color-buttons);
+	border-radius:50%;
+    background-size: cover;
+	display:grid;
+	place-items:center;
+	z-index:100;
+}
+
+a.prev {
+	left:2em;
+    background-image: url("../images/button-back.png");
+    transition: 0.5s;
+}
+
+a.next {
+	right:2em;
+    background-image: url("../images/button-next.png");
+    transition: 0.5s;
+}
+
+a.prev:hover{
+	left:2em;
+    background-image: url("../images/button-back-hover.png");
+    z-index:100;
+}
+
+a.next:hover{
+	right:2em;
+    background-image: url("../images/button-next-hover.png");
+    z-index:100;
+}
+
+a:focus{
+    border: solid 1em var(--color-buttons);
+}
+
+p a:focus{
+    border: solid 0.2em var(--color-buttons);
+}
+
+/*Algemene styling van hoofdmenu en sections*/
+
+section {
+	position:relative;
+	width:100vw;
+	height:100vh;
+}
+
+#page1{
+    background-color: var(--color-main);
+    text-align: center;
+}
+
+section img {
+    width: 20em;
+}
+
+h1 {
+    color: var(--color-text-details);
+    margin: -2em;
+    text-shadow: 0 0 0.2em var(--color-main);
+}
+
+#page1 p{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    color: var(--color-text-details);
+    margin-top: 10em;
+    width: 40em;
+    flex-wrap: wrap;
+}
+
+#page1 p+p{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    color: var(--color-text-details);
+    margin-top: 1em;
+    width: 40em;
+    flex-wrap: wrap;
+}
+
+/* Sections voor infopagina's */
+
+ol li:not(:first-of-type) {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#page2{
+    background-color: var(--color-page2);
+}
+
+#page3{
+    background-image: var(--color-background-images), url("../images/ThunderStone.png");
+}
+
+#page4{
+    background-image: var(--color-background-images), url("../images/WaterStone.png");
+}
+
+#page5{
+    background-image: var(--color-background-images), url("../images/Fire.jpg");
+}
+
+#page6{
+    background-image: var(--color-background-images), url("../images/Light.jpg");
+}
+
+#page7{
+    background-image: var(--color-background-images), url("../images/Night.jpg");
+}
+
+#page8{
+    background-image: var(--color-background-images), url("../images/Forest.jpg");
+}
+
+#page9{
+    background-image: var(--color-background-images), url("../images/IceCave.jpg");
+}
+
+#page10{
+    background-image: var(--color-background-images), url("../images/Contest.jpg");
+}
+
+/*Styling van grid voor afbeelding en tekst*/
+
+section section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38vw;
+    height: 55vh;
+    margin-top: 5em;
+    background-color: var(--color-info-text-background);
+    box-shadow: 0 0 0.5em var(--box-border-blur);
+}
+
+section section img{
+    width: 13vw;
+    place-items: center;
+    margin: 2em;
+}
+
+#page2 section section img{
+    filter: drop-shadow(0.1em 0.1em 2em var(--color-page2));
+}
+
+#page3 section section img{
+    filter: drop-shadow(0.1em 0.1em 2em var(--jolteon-glow));
+}
+
+#page4 section section img{
+    filter: drop-shadow(0.1em 0.1em 2em var(--vaporeon-glow));
+}
+
+#page5 section section img{
+    filter: drop-shadow(0.1em 0.1em 2em var(--flareon-glow));
+}
+
+#page6 section section img{
+    filter: drop-shadow(0.1em 0.1em 2em var(--espeon-glow));
+}
+
+#page7 section section img{
+    filter: drop-shadow(0.1em 0.1em 2em var(--umbreon-glow));
+}
+
+#page8 section section img{
+    filter: drop-shadow(0.1em 0.1em 2em var(--leafeon-glow));
+}
+
+#page9 section section img{
+    filter: drop-shadow(0.1em 0.1em 2em var(--glaceon-glow));
+}
+
+#page10 section section img{
+    filter: drop-shadow(0.1em 0.1em 2em var(--sylveon-glow));
+}
+
+section section p {
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: left;
+    color: var(--color-text-details);
+    
+}
+
+section section p:nth-of-type(1){
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+section section p:nth-of-type(2){
+    grid-row-start: 2;
+    grid-column: span 2;
+    margin-top: -1em;
+}
+
+section section p:nth-of-type(3){
+    margin-top: -0.5em;
+    grid-row-start: 3;
+    grid-column: span 2;
+}
+
+section section p:nth-of-type(3) a:visited{
+    grid-row-start: 3;
+    grid-column: span 2;
+    color: var(--color-text-details);
+    margin-bottom: 1em;
 }

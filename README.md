@@ -171,37 +171,36 @@ Mijn startniveau is: Rood
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)). Shortcutmenu - hover
+  Het shortcutmenu werkt nu op hover, maar het zou beter zijn als je erop kan klikken om het open en dicht te klappen.
   
   <img src="readme-images/Feedback 3-2.png" width="375px" alt="tweede versie/schets">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik kan een "onClick" event aan mijn Javascript toevoegen zodat de gebruiker op het menu kan klikken om het open te laten klappen.
 
 
 
   ### Bevinding 3:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Er mist nog iets karakteristieks per evolutie, waardoor de grid vlakken nog redelijk saai zijn.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Aangezien het de laatste dag is op het moment dat ik dit typ, weet ik niet zeker in hoeverre ik de vlakken kan aanpassen. De ideeën om een glow om sommige Pokémon heen te zetten of een gradient als achtergrond neer te zetten vind ik nog wel leuk en haalbaar. Animaties daarentegen worden waarschijnlijk nog lastig om uit te werken.
   
   
   
   ### Bevinding 4:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Het contrast van de H1 is nog niet goed genoeg bij sommige achtergrondafbeeldingen.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Hier moet ik nog een text-shadow onder zetten zodat het consistent leesbaar is, ook al vind ik zelf niet dat dit per se nodig is aangezien dezelfde tekst op de meeste pagina's wel te lezen is. Alsnog is het wel handig om nog toe te voegen.
   
   
   
   ### Bevinding 5:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  De focus states voor buttons en links ontbreekt nog.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-  
+  Ik moet nog een :focus state toevoegen. Dit ga ik waarschijnlijk met een zichtbare border doen.
   
 
 </details>
@@ -221,17 +220,21 @@ Mijn startniveau is: Rood
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatje(s)
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/Eindresultaat1.png" width="375px" alt="slidernavigatie">
+  
+  <img src="readme-images/Eindresultaat2.png" width="375px" alt="algemenevormgeving">
+  
+  <img src="readme-images/Eindresultaat3.png" width="375px" alt="shortcutmenu">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatje(s)
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/Eindresultaat4.png" width="375px" alt="saaievormgeving">
+  
+  <img src="readme-images/Eindresultaat5.png" width="375px" alt="veelwitruimte">
+  
 </details>
-
-
-
 
 
 ## Bronnenlijst voor code
