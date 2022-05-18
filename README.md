@@ -162,14 +162,14 @@ Mijn startniveau is: Rood
   #### oplossing:
   De teksten omdraaien zou voor een algemene site wel logisch zijn, maar met deze interface wil ik nadruk leggen op de evoluties en de manieren om Eevee te evolueren. Dit is waarom ik de teksten op dezelfde plaatsen houd maar wel links onderaan plaats die verwijzen naar algemene websites.
   
-  <img src="readme-images/Feedback 3-1.png" width="375px" alt="tweede versie/schets">
+  <img src="readme-images/Feedback 3-1.png" width="375px" alt="derde versie/schets">
 
 
 
   ### Bevinding 2:
   Het shortcutmenu werkt nu op hover, maar het zou beter zijn als je erop kan klikken om het open en dicht te klappen.
   
-  <img src="readme-images/Feedback 3-2.png" width="375px" alt="tweede versie/schets">
+  <img src="readme-images/Feedback 3-2.png" width="375px" alt="derde versie/schets">
 
   #### oplossing:
   Ik kan een "onClick" event aan mijn Javascript toevoegen zodat de gebruiker op het menu kan klikken om het open te laten klappen.
@@ -208,7 +208,8 @@ Mijn startniveau is: Rood
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/Eindresultaat0" width="375px" alt="final ontwerp">
+  
+  <img src="readme-images/Eindresultaat0.png" width="375px" alt="laatsteontwerp">
 
 
   ### Dit ging goed/Heb ik geleerd: 
